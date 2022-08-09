@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo.svg">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    
+    <title>STORII - Những vết thương lành</title>
+    
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+</head>
+<body>
+    <div class="page">
+
+        <!-- 
+        <div class="tab-header">
+            
+            <div class="logo">
+                <a href="/index.html">
+                    <img class="logo-img" src="./assets/img/logo.svg" alt="logoStorii">
+                </a>
+            </div>
+
+            <div class="tabs">
+                <div class="tab-item item-home active ">
+                    <i class="tab-icon fas fa-house"></i>
+                    Sto-Note
+                </div>
+                <div class="tab-item item-music ">
+                    <i class="tab-icon fas fa-music"></i>
+                    Sto-Music
+                </div>
+                <div class="tab-item item-ticket ">
+                    <i class="tab-icon fas fa-ticket-alt"></i>
+                    Sto-Ticket
+                </div>
+                 <div class="tab-item item-product ">
+                    <i class="tab-icon fas fa-pen-nib"></i>
+                    Sto-Product
+                </div>
+                <div class="float">
+                    <div class="tab-item item-shopping">
+                        <i class="tab-icon fas fa-shopping-bag"></i>
+                        <span class="span-res">
+                            Your-Sto
+                        </span>
+                        
+                    </div>
+                    <div class="tab-item item-login ">
+                        <i class="tab-icon fas fa-user "></i>
+                        <span class="span-res">
+                            Login
+                        </span>
+                    </div>
+
+                    <div class="line"></div>
+                </div>
+            </div>
+            
+        </div>
+        -->
+
+
+        <!-- Header -->
+        <div class="tab-header">
+            <!--Logo-->
+            <div class="logo">
+                <a href="/index.html">
+                    <img class="logo-img" src="./assets/img/logo.svg" alt="logoStorii">
+                </a>
+                <div class="mobile-i" onclick="menuMobile()" >
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <!-- Tab items -->
+            <div class="tabs">
+                <div class="tab-item item-home active ">
+                    <i class="tab-icon fas fa-house"></i>
+                    Sto-Note
+                </div>
+                <div class="tab-item item-music ">
+                    <i class="tab-icon fas fa-music"></i>
+                    Sto-Music
+                </div>
+                <div class="tab-item item-ticket ">
+                    <i class="tab-icon fas fa-ticket-alt"></i>
+                    Sto-Ticket
+                </div>
+                 <div class="tab-item item-product ">
+                    <i class="tab-icon fas fa-pen-nib"></i>
+                    Sto-Product
+                </div>
+                <div class="float">
+                    <div class="tab-item item-shopping">
+                        <i class="tab-icon fas fa-shopping-bag"></i>
+                        <span class="span-res">
+                            Your-Sto
+                        </span>
+                        
+                    </div>
+                    <div class="tab-item item-login ">
+                        <i class="tab-icon fas fa-user "></i>
+                        <span class="span-res">
+                            Login
+                        </span>
+                    </div>
+
+                    <div class="line"></div>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Content -->
+        <!-- Tab content -->
+        <div class="tab-content">
+
+            <!--Sto-Note-->
+            <div id="pane-home" class="tab-pane pane-home active">
+                <div class="home-picture">
+                    <h2 class="h2-picture h2-re">
+                        NHỮNG KÝ ỨC KHÔNG THỂ QUÊN
+                    </h2>
+                    <!-- Photo Grid -->
+                    <div class="row"> 
+                    <div class="column">
+                        <img src="./assets/img/hat12.jpg" style="width:100%">
+                        <img src="./assets/img/hat02.jpg" style="width:100%">
+                        <img src="./assets/img/hat06.jpg" style="width:100%">
+                        <img src="./assets/img/hat07.jpg" style="width:100%">   
+                    </div>
+                    <div class="column">
+                        <img src="./assets/img/hat03.jpg" style="width:100%">
+                        <img src="./assets/img/hat04.jpg" style="width:100%">
+                        <img src="./assets/img/hat15.jpg" style="width:100%">
+                    </div>  
+                    <div class="column">
+                        <img src="./assets/img/hat01.jpg" style="width:100%">
+                        <img src="./assets/img/hat14.jpg" style="width:100%">
+                        <img src="./assets/img/hat10.jpg" style="width:100%">
+                        <img src="./assets/img/hat11.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="./assets/img/hat08.jpg" style="width:100%">
+                        <img src="./assets/img/hat09.jpg" style="width:100%">
+                        <img src="./assets/img/hat13.jpg" style="width:100%">
+                        
+                    </div>  
+                   
+
+                    </div>  
+                    
+                </div>
+
+                <div class="home-story">
+                    <div class="title-line">
+                        <h2 class="h2-story h2-re">MỘT VÀI CÂU CHUYỆN</h2>
+                        <div class="line-h2"></div>
+                    </div>
+                    <div class="story-div">
+                        <a class="story-a" href="./html/stonote_01.html" target="_blank" >
+                            <h3 class="story-h3">
+                                CHUYỆN ÉP MÌNH ĐI HÁT VÀ "CHIẾN LƯỢC" TRONG ÂM NHẠC
+                            </h3>
+                            <p class="story-p">
+                                "Có nhiều thời điểm Tuấn nhận đi hát ở những nơi mà biết chắc khán giả không mong chờ mình. Kết quả cũng chẳng chinh phục được ai, 
+                                Tuấn giận bản thân, biết là “không” mà vẫn “say yes”!..." 
+                            </p>
+                        </a>
+                    </div>
+                    <div class="story-div">
+                        <a class="story-a" href="./html/stonote_03.html" target="_blank" >
+                            <h3 class="story-h3">
+                                NHẠC SĨ VIỆT ANH & HÀ ANH TUẤN - “NHỮNG VẾT THƯƠNG LÀNH”
+                            </h3>
+                            <p class="story-p">
+                                "Đối diện, gọi tên và làm bạn với những vết thương là cách duy nhất để những vết thương được chữa lành" - Hà Anh Tuấn - <br>
+                                "Vết thương có thể viết ra thành nhạc thì đã lành lặn một phần" -Việt Anh- 
+                            </p>
+                        </a>
+                    </div>
+                    <div class="story-div">
+                        <a class="story-a" href="./html/stonote_02.html" target="_blank" >
+                            <h3 class="story-h3">
+                                HÀ ANH TUẤN - KHÔNG THƯƠNG KHÔNG ĐƯỢC
+                            </h3>
+                            <p class="story-p">
+                                Là âm nhạc. Âm nhạc không đơn thuần là nốt nhạc lời ca bạn ạ. Ðó là năng lượng. Không có nguồn năng lượng ấy giải thoát cho tôi, đời sống của tôi đã đi theo hướng khác, có lẽ tệ hơn.
+                            </p>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="home-forest">
+                    <div class="title-line-reverse">
+                        <h2 class="h2-forest h2-re">RỪNG VIỆT NAM</h2>
+                        <div class="line-h2"></div>
+                    </div>
+                    <div class="forest-div">
+                        <div class="forest-content">
+                            <h3 class="forest-title">Save The VietNam's Wildlife</h3>
+                            <p class="forest-p">
+                                SAVE VIETNAM'S WILDLIFE - Trung tâm bảo tồn động vật hoang dã Việt Nam 
+                                là một tổ chức phi lợi nhuận được thành lập vì tương lai của động vật hoang dã tại Việt Nam. 
+                            </p>
+                            <a class="forest-a" href="./html/forest_content_01.html" target="_blank"> Xem thêm >> </a>
+
+                        </div>
+                        <div class="forest-img">
+                            <img class="img-forest" src="./assets/img/rungvietnam.jpg">
+                        </div>
+                    </div>
+                    <div class="forest-div-right ">
+                        <div class="forest-content-right">
+                            <h3 class="forest-title-right">Save Forest ! Save Your Life ! </h3>
+                            <p class="forest-p-right">
+                                Khả năng sáng tạo của con người trong việc định hình thế giới hơn hẳn bất kỳ loài động vật nào khác, 
+                                nhưng chính thiên nhiên mới là nguồn gốc của mọi sự sống, nền văn minh và cả con người. 
+                                
+                            </p>
+                            <a class="forest-a-right" href="./html/forest_content_02.html" target="_blank"> Xem thêm >> </a>
+
+                        </div>
+                        <div class="forest-img-right">
+                            <img class="img-forest-right" src="./assets/img/rungvietnam02.jpg">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Sto-Music-->
+            <div id="pane-music" class="tab-pane pane-music">
+                <div class="music-player">
+                    <h2 class="h2-story h2-re">THANH ÂM CỦA YÊU THƯƠNG</h2>
+                    <div class="player">
+                        <!-- Dashboard -->
+                        <div class="dashboard">
+                          <!-- Header -->
+                            <header>
+                                <h4>Now playing:</h4>
+                                <h2>String 57th & 9th</h2>
+                            </header>
+                      
+                          <!-- CD -->
+                            <div class="cd">
+                                <div class="cd-thumb" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')">
+                            </div>
+                            </div>
+                      
+                          <!-- Control -->
+                            <div class="control">
+                                <div class="btn btn-repeat">
+                                    <i class="fas fa-redo"></i>
+                                </div>
+                                <div class="btn btn-prev">
+                                    <i class="fas fa-step-backward"></i>
+                                </div>
+                                <div class="btn btn-toggle-play">
+                                    <i class="fas fa-pause icon-pause"></i>
+                                    <i class="fas fa-play icon-play"></i>
+                                </div>
+                                <div class="btn btn-next">
+                                    <i class="fas fa-step-forward"></i>
+                                </div>
+                                <div class="btn btn-random">
+                                    <i class="fas fa-random"></i>
+                                </div>
+                            </div>
+                      
+                            <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                      
+                            <audio id="audio" src=""></audio>
+                        </div>
+                      
+                        <!-- Playlist -->
+                        <div class="playlist">
+                            <div class="song">
+                                <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')">
+                                </div>
+                                <div class="body">
+                                    <h3 class="title">Music name</h3>
+                                    <p class="author">Singer</p>
+                                </div>
+                                <div class="option">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')">
+                                </div>
+                                <div class="body">
+                                    <h3 class="title">Music name</h3>
+                                    <p class="author">Singer</p>
+                                </div>
+                                <div class="option">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="song">
+                                <div class="thumb" style="background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg')">
+                                </div>
+                                <div class="body">
+                                    <h3 class="title">Music name</h3>
+                                    <p class="author">Singer</p>
+                                </div>
+                                <div class="option">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="slideshow">
+                    <div class="title-line">
+                        <h2 class="h2-music h2-re"> NHỮNG ĐÊM KHÔNG NGỦ </h2>
+                        <div class="line-h2"></div>
+                    </div>
+                    
+                    <div class="slideshow-div">
+                        <div class="container-pic">
+                            <div class="slider-nav">
+                                <ul>
+                                    <li class="arrow-left">
+                                        <button class="previous">
+                                            <i class=" btn-icon fas fa-arrow-left"></i>
+                                        </button>
+                                    </li>
+                              </ul>
+                            </div>
+                            <div class="slider">
+                                <img class="picture-img activeimg" src="./assets/img/slideshow01.jpg">
+                                <img class="picture-img"src="./assets/img/slideshow02.jpg">
+                                <img class="picture-img"src="./assets/img/slideshow03.jpg">
+                                <img class="picture-img"src="./assets/img/slideshow04.jpg">
+                                <img class="picture-img"src="./assets/img/slideshow05.jpg">
+                            </div>
+                            <div class="slider-nav">
+                                <ul>
+                                    <li class="arrow-right">
+                                        <button class="next">
+                                            <i class=" btn-icon fas fa-arrow-right"></i>
+                                        </button>
+                                    </li>
+                              </ul>
+                            </div>
+                        </div>
+                        <div class="picture-quote">
+                            <p class="quote-p">
+                                "Quý vị yêu mến Tuấn và âm nhạc của Tuấn bởi quý vị thấy mình trong đó. 
+                                Âm nhạc của Hà Anh Tuấn như chiếc gương để người nghe nhìn thấy mình rõ hơn, nhiều lần hơn.
+                                <br>
+                                Đến với âm nhạc của Tuấn, không phải quý vị ngưỡng mộ hay thần tượng Tuấn, mà quý vị ngưỡng mộ và thần tượng chính mình. 
+                                <br>
+                                Tuấn không dám nhận rằng quý vị là của Hà Anh Tuấn, mà Hà Anh Tuấn là của quý vị.
+                                <br>
+                                Nếu có ai hỏi thì cứ trả lời thế, vì Tuấn xem đó là cách mà mọi người tôn trọng Tuấn nhất"
+                            </p>
+                            <h4 class="h4-title">
+                                -Hà Anh Tuấn-
+                            </h4>
+                        </div>
+                    
+                    </div>
+                </div>
+                
+                
+            
+            </div>
+
+            <!--Sto-Ticket-->
+            <div id="pane-ticket" class="tab-pane pane-ticket">
+                <div class="concert">
+                    <h2 class="h2-ticket h2-re">NHỮNG VẾT THƯƠNG LÀNH</h2>
+
+                    <div id="tour" class="tour-section">
+                        <!--Tickets -->
+                        <ul class="ticket-list">
+                            <li>Tháng 6 <span class="sold-out"> Hết vé </span> </li>
+                            <li>Tháng 8 <span class="have"> Còn vé </span> </li>
+                            <li>Tháng 9 <span class="comingsoon"> Chưa mở bán </span> </li>
+                        </ul>
+        
+                        <!--Place -->
+                        <div class="place-list">
+                                <div class="place-list-child">
+                                    <img src="./assets/img/nhungvetthuonglanh02.jpg" alt="Hanoi" class="place-img">
+                                    <div class="place-body">
+                                        <h3 class="place-heading">HÀ NỘI</h3>
+                                        <p class="place-time"> 20-08-2022 </p>
+                                        <p class="place-desc"> Trung tâm Hội nghị Quốc gia - Hà Nội</p>
+                                        <button href="#" class="place-buy-btn  js-buy-ticket " >ĐẶT VÉ</button>
+        
+                                    </div>
+                                </div>
+        
+                                <div class="place-list-child">
+                                    <img src="./assets/img/nhungvetthuonglanh01.jpg" alt="Hochiminh" class="place-img">
+                                    <div class="place-body">
+                                        <h3 class="place-heading">TP.HỒ CHÍ MINH</h3>
+                                        <p class="place-time"> 13-08-2022 </p>
+                                        <p class="place-desc"> Nhà hát Hòa Bình - Tp.Hồ Chí Minh</p>
+                                        <button href="#" class="place-buy-btn  js-buy-ticket " >ĐẶT VÉ</button>
+        
+                                    </div>
+                                </div>
+        
+                                <div class="place-list-child">
+                                    <img src="./assets/img/nhungvetthuonglanh03.jpg" alt="San Francisco" class="place-img">
+                                    <div class="place-body">
+                                        <h3 class="place-heading">TP.HỒ CHÍ MINH</h3>
+                                        <p class="place-time"> 14-08-2022 </p>
+                                        <p class="place-desc"> Nhà hát Hòa Bình - Tp.Hồ Chí Minh</p>
+                                        <button href="#" class="place-buy-btn  js-buy-ticket " >ĐẶT VÉ</button>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                
+               
+             
+            </div>
+
+            <!--Sto-Product-->
+            <div id="pane-product" class="tab-pane pane-product">
+                <div class="album">
+                    <h2 class="h2-album h2-re">ALBUM</h2>
+                    <div class="albums-item">
+                        <div class="item">
+                            <div class="item-row">
+                                <div class="item-row-div" id="img01-album01" onclick="showImgItem01(this.id)">
+                                    <img class="item-row-img" src="./assets/img/dvd_theveston_01.png">
+                                </div>
+                                <div class="item-row-div" id="img02-album01" onclick="showImgItem01(this.id)" >
+                                    <img class="item-row-img" src="./assets/img/dvd_theveston_02.png">
+                                </div>
+                                <div class="item-row-div" id="img03-album01" onclick="showImgItem01(this.id)" >
+                                    <img class="item-row-img" src="./assets/img/dvd_theveston_03.png">
+                                </div>
+                                <div class="item-row-div" id="img04-album01" onclick="showImgItem01(this.id)">
+                                    <img class="item-row-img" src="./assets/img/dvd_theveston_04.png">
+                                </div>
+                            </div>
+                            <div class="item-img">
+                                <img class="item-img" id="itemimg-album01" src="./assets/img/dvd_theveston_01.png">
+                                
+
+                            </div>
+                            <div class="item-infor ">
+                                <h4 class="item-name ">DVD “THE VESTON CONCERT” VÀ PHOTOBOOK 15HAT</h4>
+                                <p class="item-price ">990.000 VNĐ</p>
+                                <table class="item-table ">
+                                    <tr>
+                                        <td class="item-td-left ">
+                                            <button class="button-plus" id="buttonplus01" onclick="plusQuantity(this.id)" >+</button>
+                                            <input type="number" id="inputnumber" class="input-item" value="1" min="1" />
+                                            <button class="button-minus" id="buttonminus01" onclick="miniusQuantity(this.id)" >-</button>
+                                        </td>
+                                        <td class="item-td-right">
+                                            <button class="additem" onclick="alertMess()">THÊM VÀO GIỎ HÀNG </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="item reverse">
+                            <div class="item-row">
+                                <div class="item-row-div" id="img01-album02" onclick="showImgItem02(this.id)">
+                                    <img class="item-row-img " src="./assets/img/lp_cuoingay_01.png">
+                                </div>
+                                <div class="item-row-div" id="img02-album02" onclick="showImgItem02(this.id)">
+                                    <img class="item-row-img " src="./assets/img/lp_cuoingay_02.jpg">
+                                </div>
+                                <div class="item-row-div" id="img03-album02" onclick="showImgItem02(this.id)">
+                                    <img class="item-row-img " src="./assets/img/lp_cuoingay_03.jpg">
+                                </div>
+                                <div class="item-row-div" id="img04-album02" onclick="showImgItem02(this.id)">
+                                    <img class="item-row-img " src="./assets/img/lp_cuoingay_04.jpg">
+                                </div>
+                            </div>
+                            <div class="item-img">
+                                <img class="item-img " id="itemimg-album02" src="./assets/img/lp_cuoingay_02.jpg">
+                            </div>
+                            <div class="item-infor textalign-right ">
+                                <h4 class="item-name">LP "CUỐI NGÀY NGƯỜI ĐÀN ÔNG MỘT MÌNH"</h4>
+                                <p class="item-price">1.200.000 VNĐ</p>
+                                <table class="item-table float-right">
+                                    <tr>
+                                        <td class="item-td-left ">
+                                            <button class="button-plus" id="buttonplus02" onclick="plusQuantity(this.id)" >+</button>
+                                            <input type="number" id="inputnumber" class="input-item" value="1" min="1" />
+                                            <button class="button-minus" id="buttonminus02" onclick="miniusQuantity(this.id)" >-</button>
+                                        </td>
+                                        <td class="item-td-right ">
+                                            <button class="additem" onclick="alertMess()">THÊM VÀO GIỎ HÀNG </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-row">
+                                <div class="item-row-div" id="img01-album03" onclick="showImgItem03(this.id)">
+                                    <img class="item-row-img" src="./assets/img/cd_truyenngan_01.png">
+                                </div>
+                                <div class="item-row-div" id="img02-album03" onclick="showImgItem03(this.id)" >
+                                    <img class="item-row-img" src="./assets/img/cd_truyenngan_02.jpg">
+                                </div>
+                                <div class="item-row-div" id="img03-album03" onclick="showImgItem03(this.id)" >
+                                    <img class="item-row-img" src="./assets/img/cd_truyenngan_03.jpg">
+                                </div>
+                                <div class="item-row-div" id="img04-album03" onclick="showImgItem03(this.id)">
+                                    <img class="item-row-img" src="./assets/img/cd_truyenngan_04.jpg">
+                                </div>
+                            </div>
+                            <div class="item-img">
+                                <img class="item-img" id="itemimg-album03" src="./assets/img/cd_truyenngan_03.jpg">
+                                
+
+                            </div>
+                            <div class="item-infor ">
+                                <h4 class="item-name ">CD ALBUM TRUYỆN NGẮN</h4>
+                                <p class="item-price ">350.000 VNĐ</p>
+                                <table class="item-table ">
+                                    <tr>
+                                        <td class="item-td-left ">
+                                            <button class="button-plus" id="buttonplus03" onclick="plusQuantity(this.id)" >+</button>
+                                            <input type="number" id="inputnumber" class="input-item" value="1" min="1" />
+                                            <button class="button-minus" id="buttonminus03" onclick="miniusQuantity(this.id)" >-</button>
+                                        </td>
+                                        <td class="item-td-right">
+                                            <button class="additem" onclick="alertMess()">THÊM VÀO GIỎ HÀNG </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="item reverse">
+                            <div class="item-row">
+                                <div class="item-row-div" id="img01-album04" onclick="showImgItem04(this.id)">
+                                    <img class="item-row-img " src="./assets/img/cd_cuoingay_01.png">
+                                </div>
+                                <div class="item-row-div" id="img02-album04" onclick="showImgItem04(this.id)">
+                                    <img class="item-row-img " src="./assets/img/cd_cuoingay_02.png">
+                                </div>
+                                <div class="item-row-div" id="img03-album04" onclick="showImgItem04(this.id)">
+                                    <img class="item-row-img " src="./assets/img/cd_cuoingay_03.png">
+                                </div>
+                                <div class="item-row-div" id="img04-album04" onclick="showImgItem04(this.id)">
+                                    <img class="item-row-img " src="./assets/img/cd_cuoingay_04.png">
+                                </div>
+                            </div>
+                            <div class="item-img">
+                                <img class="item-img " id="itemimg-album04" src="./assets/img/cd_cuoingay_04.png">
+                            </div>
+                            <div class="item-infor textalign-right ">
+                                <h4 class="item-name">CD ALBUM CUỐI NGÀY NGƯỜI ĐÀN ÔNG MỘT MÌNH</h4>
+                                <p class="item-price">390.000 VNĐ</p>
+                                <table class="item-table float-right">
+                                    <tr>
+                                        <td class="item-td-left ">
+                                            <button class="button-plus" id="buttonplus04" onclick="plusQuantity(this.id)" >+</button>
+                                            <input type="number" id="inputnumber" class="input-item" value="1" min="1" />
+                                            <button class="button-minus" id="buttonminus04" onclick="miniusQuantity(this.id)" >-</button>
+                                        </td>
+                                        <td class="item-td-right ">
+                                            <button class="additem" onclick="alertMess()">THÊM VÀO GIỎ HÀNG </button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                
+              
+            </div>
+
+            <!--Your-sto-->
+            <div id="pane-bag" class="tab-pane pane-bag">
+                <div class="login-div">
+                    <h2 class="h2-form h2-re">ĐĂNG NHẬP</h2>
+
+                    <div class="login">
+                        <label for="login-user" class="label-form"  >Email / Số điện thoại</label>
+                        <input id="login-user" class="input-form"  type="text" name="login-user">
+    
+                        <label for="login-pass" class="label-form"  >Mật khẩu</label>
+                        <input id="login-pass" class="input-form"  type="password" name="login-pass">
+    
+                        <p class="label-form" >
+                            Bạn quên mật khẩu ? <a class="a-form" href="#"> Trợ giúp </a>
+                        </p>
+
+                        <button class="button-form" onclick="alertLogin()"> ĐĂNG NHẬP </button>
+    
+                        <p class="label-form"> Hoặc đăng nhập bằng cách khác </p>
+                        <div class="i-form">
+                            <a href="https://www.google.com/intl/vi/account/about/" target="_blank">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            
+                        </div>
+                    </div>   
+                </div>
+                
+            </div>
+
+            <!--Login--->
+            <div id="pane-login" class="tab-pane pane-login">
+                <div class="login-div">
+                    <h2 class="h2-form h2-re">ĐĂNG NHẬP</h2>
+
+                    <div class="login">
+                        <label for="login-user" class="label-form"  >Email / Số điện thoại</label>
+                        <input id="login-user" class="input-form"  type="text" name="login-user">
+    
+                        <label for="login-pass" class="label-form"  >Mật khẩu</label>
+                        <input id="login-pass" class="input-form"  type="password" name="login-pass">
+    
+                        <p class="label-form" >
+                            Bạn quên mật khẩu ? <a class="a-form" href="#"> Trợ giúp </a>
+                        </p>
+
+                        <button class="button-form" onclick="alertLogin()"> ĐĂNG NHẬP </button>
+    
+                        <p class="label-form"> Hoặc đăng nhập bằng cách khác </p>
+                        <div class="i-form">
+                            <a href="https://www.google.com/intl/vi/account/about/" target="_blank">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            
+                        </div>
+                    
+                    </div>   
+    
+                </div>
+                
+                <div class="signup-div">
+                    <div class="title-line">
+                        <h2 class="h2-form h2-re"> ĐĂNG KÝ </h2>
+                        <div class="line-h2"></div>
+                    </div>
+
+                    <div class="signup ">
+                        <label for="name" class="label-form " >Họ tên</label>
+                        <input id="name" class="input-form "  type="text" name="name">
+    
+                        <label for="birthday" class="label-form"  >Sinh nhật</label>
+                        <input id="birthday" class="input-form "   type="date" name="birthday">
+    
+                        <label for="signup-user" class="label-form"   >Email / Số điện thoại</label>
+                        <input id="signup-user" class="input-form "  type="text" name="signup-user">
+     
+                        <label for=""  class="label-form"  >Mật khẩu</label>
+                        <input id="signup-pass" class="input-form "  type="password" name="signup-pass">
+    
+                        <label for="" class="label-form"  >Nhập lại mật khẩu</label>
+                        <input id="signup-repass" class="input-form "   type="password" name="signup-repass">
+                        
+                        <button class="button-form" onclick="alertLogin()"> ĐĂNG KÝ </button>
+    
+                        <p class="label-form" >Hoặc đăng ký bằng cách khác</p>
+                        <div class="i-form">
+                            <a href="https://www.google.com/intl/vi/account/about/" target="_blank">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                            
+                        </div>
+    
+                    </div>
+
+                    
+                </div>
+                
+                
+                
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-content-top">
+                <table class="table-left">
+                    <tr>
+                        <td class="table-left-td">
+                            STORII - không gian mới cho nghệ thuật và sáng tạo. 
+                            Với mỗi dự án, sản phẩm, Storii hy vọng có thể truyền cảm hứng để tạo 
+                            và lan tỏa những giá trị tích cực cho người Việt.
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="table-left-td">
+                            <a href="https://www.facebook.com/storiivn" target="_blank">
+                                <i class="app-i fa-brands fa-square-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/storiivn.official/" target="_blank">
+                                <i class="app-i fa-brands fa-square-instagram"></i>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <table class="table-center">
+                    <tr>
+                        <td>
+                           <a class="footer-a" href="/html/policies.html" target="_blank">
+                                CHÍNH SÁCH VÀ QUY ĐỊNH
+                           </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a class="footer-a" href="/html/shipping.html" target="_blank">
+                                SHIPPING
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a class="footer-a" href="">
+                                FAQS
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <table class="table-right">
+                    <tr>
+                        <td class="table-right-td">
+                            TẢI APP STORII TẠI 
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://play.google.com/store/apps/details?id=com.storii_app&hl=vi&gl=US" target="_blank">
+                                <img class="app-logo" src="./assets/img/ggplay.svg">
+                            </a>
+                            <a href="https://apps.apple.com/vn/app/storii/id1463016048?l=vi" target="_blank">
+                                <img class="app-logo" src="./assets/img/AppleStore.svg">
+                            </a>
+                            
+                        </td>
+                        
+                    </tr>
+                </table>
+            </div>
+            <div class="footer-content-bottom">
+                <a href="/index.html" class="a-footer">
+                    <img class="logo-footer" src="./assets/img/logofooter.svg">
+                </a>
+                <p class="infor-footer">
+                    Cty TNHH VV Creative & Entertainment, số ĐKKD:0316140846 do Sở KHĐT Tp.HCM cấp ngày 17/02/2020 <br>
+                    Địa chỉ: L17 - 11, Tầng 17, Tòa nhà Vincom Center, số 72 Lê Thánh Tôn, Phường Bến Nghé, Quận 1, Tp.HCM. <br>
+                    Hotline: 028-39309306 - Email: support@storii.vn
+                </p>
+                <img class="logo-bocongthuong" src="./assets/img/logobocongthuong.svg">
+            </div>
+            
+
+
+        </div>
+
+        <div class="modal js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="modal-close  js-modal-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <header class="modal-header">
+                        NHỮNG VẾT THƯƠNG LÀNH 
+                </header>
+    
+                <div class="model-body">
+                    <label for="ticket-type" class="modal-label">
+                        Loại vé 
+                    </label>
+                    <table class="ticket-type">
+                        <tr>
+                            <td class="check-td">
+                                <label class="container">Hạnh phúc
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            <td class="quantity-td">
+                                <span> Số lượng:  </span>
+                                <input class="quantity-input" type="number" min="1" step="1" > 
+                            </td>
+                            <td class="ticket-price">
+                                Giá vé: 4.600.000 VND
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="check-td">
+                                <label class="container">Bình yên
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                            <td class="quantity-td">
+                                <span> Số lượng:  </span> 
+                                <input class="quantity-input" type="number" min="1" step="1" > 
+                            </td>
+                            <td class="ticket-price">
+                                Giá vé: 3.700.000 VND
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="check-td">
+                                <label class="container">An nhiên
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                            <td class="quantity-td">
+                                <span> Số lượng:  </span>
+                                <input class="quantity-input" type="number" min="1" step="1" > 
+                            </td>
+                            <td class="ticket-price">
+                                Giá vé: 2.800.000 VND
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="check-td">
+                                <label class="container">Thảnh thơi
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                            <td class="quantity-td">
+                                <span> Số lượng:  </span> 
+                                <input class="quantity-input" type="number" min="1" step="1" > 
+                            </td>
+                            <td class="ticket-price">
+                                Giá vé: 2.200.000 VND
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="check-td">
+                                <label class="container">Chữa lành
+                                    <input type="checkbox"  >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                            <td class="quantity-td">
+                                <span> Số lượng:  </span> 
+                                <input class="quantity-input" type="number" min="1" step="1" > 
+                            </td>
+                            <td class="ticket-price">
+                                Giá vé: 1.600.000 VND
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="check-td">
+                                <label class="container">Cảm hứng
+                                    <input type="checkbox" >
+                                    <span class="checkmark"></span>
+                                </label>
+                            </td>
+                            <td class="quantity-td">
+                                <span> Số lượng:  </span>
+                                <input class="quantity-input" type="number" min="1" step="1" > 
+                            </td>
+                            <td class="ticket-price">
+                                Giá vé: 1.000.000 VND
+                            </td>
+                        </tr>
+
+                    </table>
+    
+                    <label for="ticket-note" class="modal-label">
+                        Ghi chú
+                    </label>
+                    <input id="ticket-note" type="text" class="modal-input" placeholder="">
+                    
+                    <div class="btn-div">
+                        <button id="buy-tickets" onclick="alertMess()">
+                            ĐẶT VÉ
+                        </button>
+                    </div>
+                    
+                </div>
+    
+                <footer class="model-footer">
+                    <p class="model-help"> Cần <a href="#">trợ giúp? </a></p>
+                </footer>
+    
+    
+            </div>
+                
+        </div>
+
+        <script src="https://kit.fontawesome.com/1a6ff37e71.js" crossorigin="anonymous"></script>
+        <script src="./main.js"></script>
+        <script src="./js/musicplayer.js"></script>
+    </div>
+</body>
+</html>
